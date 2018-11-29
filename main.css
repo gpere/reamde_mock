@@ -1,0 +1,18 @@
+div {
+  margin: 1%;
+  padding: 1%;
+}
+
+#container {
+  background-color: red;
+}
+#lock img{
+  width:10%;
+}
+.payment {
+  border-width: 3px;
+  border-color: #000000;
+}
+#textbox {
+  float: right;
+}
