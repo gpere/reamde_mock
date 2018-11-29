@@ -1,18 +1,40 @@
 div {
   margin: 1%;
-  padding: 1%;
+  padding-left: 1%;
+  padding-bottom: 0.2%
 }
 
 #container {
   background-color: red;
+  height: 400px;
 }
 #lock img{
-  width:10%;
+  max-width: 5vw;
+  max-height: 5vw;
+}
+#lock{
+  width: 31%;
+  display: flex;
+  justify-content: center;
 }
 .payment {
   border-width: 3px;
   border-color: #000000;
+  width: 31%;
+  height: 30px;
 }
 #textbox {
   float: right;
+  width: 63%;
+  height: 200px;
+  overflow-y: scroll;
+  background-color: white;
+}
+#footer{
+  width: 31%
+}
+#select{
+  text-align: right;
+  float: right;
+  width: 63%
 }
